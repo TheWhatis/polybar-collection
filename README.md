@@ -40,7 +40,7 @@ $HOME/Projects
 -> git clone --depth 1 https://github.com/Murzchnvok/polybar-collection
 
 $HOME
--> ln -s $HOME/Projects/polybar-collection $HOME/polybar-collection
+-> ln -s $HOME/Projects/polybar-collection $HOME/.config/polybar
 ```
 
 ### Running
@@ -48,20 +48,20 @@ $HOME
 BSPwm
 
 ```bash
-$HOME/polybar-collection/launch.sh
+$HOME/.config/polybar/launch.sh
 ```
 
 I3wm
 
 ```bash
-exec_always --no-startup-id $HOME/polybar-collection/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 ```
 
 Remember to keep updated:
 
 ```bash
 $HOME
--> cd $HOME/polybar-collection && git pull
+-> cd $HOME/.config/polybar && git pull
 ```
 
 ## Few changes
@@ -151,7 +151,7 @@ modules-right = date weather
 
 ```ini
 modules-left = weather margin date margin mpd tri-upper-right tri-lower-left bspwm tri-upper-right
-modules-center = 
+modules-center =
 modules-right = memory margin cpu margin xbacklight margin pulseaudio
 ```
 
