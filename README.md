@@ -30,14 +30,14 @@ Now you need to clone the repo in the \$HOME directory (because the path inside 
 
 ```bash
 $HOME
--> git clone --depth 1 https://github.com/Murzchnvok/polybar-collection
+-> git clone --depth 1 https://github.com/TheWhatis/polybar-collection
 ```
 
 or clone to other directory and create a symlink of the folder in the \$HOME directory:
 
 ```bash
 $HOME/Projects
--> git clone --depth 1 https://github.com/Murzchnvok/polybar-collection
+-> git clone --depth 1 https://github.com/TheWhatis/polybar-collection
 
 $HOME
 -> ln -s $HOME/Projects/polybar-collection $HOME/.config/polybar
@@ -88,10 +88,10 @@ Still thinking about this one, maybe I should add more 'backend' options, for no
 
 ## You might be interested
 
-- [Rofi Collection](https://github.com/Murzchnvok/rofi-collection)
+- [Rofi Collection](https://github.com/TheWhatis/rofi-collection)
 - [Wallpaper Collection](https://drive.google.com/drive/folders/1o1qjRgkJtnF_8uGB1z6MRsQUjWinHUsw?usp=sharing)
 - [Pomotroid (pomodoro app)](https://github.com/Splode/pomotroid)
-- [Ugly To-Do](https://github.com/Murzchnvok/ugly-todo)
+- [Ugly To-Do](https://github.com/TheWhatis/ugly-todo)
 
 _Enjoy!_
 
